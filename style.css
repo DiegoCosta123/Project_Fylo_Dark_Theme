@@ -4,15 +4,26 @@
     margin: 0;
     padding: 0;
     background-color: hsl(217, 28%, 15%);
+    /* <img class="img_teste" src="images/bg-curvy-desktop.svg" alt=""> */
 }
 
 #project_container {
-    margin: 35px 35px 15px 35px;
+    position: relative;
+}
+
+.img_teste {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    object-fit: cover;
 }
 
 #menu_main {
     display: flex;
     justify-content: space-between;
+    padding: 45px 45px 0 45px;
 }
 
 #logo {
@@ -25,6 +36,7 @@
     color: hsl(0, 0%, 100%);
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
+    background-color: transparent;
 }
 
 .btn_menu:hover {
@@ -32,26 +44,38 @@
 }
 
 #accessible_fylo {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
 }
 
+.img_intro {
+    z-index: 1;
+    background-color: transparent;
+}
+
 #title_button {
     color: hsl(0, 0%, 100%);
     text-align: center;
     margin-top: 100px;
+    z-index: 1;
+    background: hsl(218, 28%, 13%);
 }
 
 #title {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
+    background: hsl(218, 28%, 13%);
+    z-index: 1;
 }
 
 #paragraph {
     font-family: 'Open Sans', sans-serif;
     margin-top: 30px;
+    background: hsl(218, 28%, 13%);
+    z-index: 1;
 }
 
 #button {
@@ -76,36 +100,86 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 100px;
+    padding-top: 100px;
+    background: hsl(218, 28%, 13%);
 }
 
-.icon_first {
+.card {
     display: flex;
     flex-direction: column;
-}
-
-.icon_second {
-    display: flex;
-    flex-direction: column;
+    background: hsl(218, 28%, 13%);
 }
 
 .icons_content {
     text-align: center;
     margin: 0 0 90px 0px;
+    background: inherit;
 }
 
 .title_paragraph {
     width: 390px;
     color: hsl(0, 0%, 100%);
     font-family: 'Open Sans', sans-serif;
+    background: inherit;
+
 }
 
 .icon_title {
     margin-top: 10px;
     font-weight: bold;
+    background: inherit;
+
 }
 
 .icon_paragraph {
     margin-top: 15px;
+    background: inherit;
+
+}
+
+#productive_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+    background: hsl(218, 28%, 13%);
+    gap: 50px;
+}
+
+#productive_container img{
+    background: inherit;
+}
+
+#title_paragraph_product {
+    width: 510px;
+    height: 220px;
+    text-align: justify;
+    margin: 0;
+}
+
+#title_paragraph_product h1, p, a {
+    background: hsl(218, 28%, 13%);
+}
+
+.paragraph_product {
+    padding-top: 15px;
+    line-height: 1.7;
+}
+
+.btn_product {
+    color: hsl(198, 60%, 50%);
+    font-family: 'Open Sans', sans-serif;
+    line-height: 3.5;
+}
+
+.btn_product:hover {
+    color: hsl(0, 0%, 100%);
+}
+
+#comment_person {
+    width: 500px;
+    height: 150px;
+    background-color: brown;
 }
 
