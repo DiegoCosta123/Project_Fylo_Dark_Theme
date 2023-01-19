@@ -3,12 +3,14 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: hsl(217, 28%, 15%);
     /* <img class="img_teste" src="images/bg-curvy-desktop.svg" alt=""> */
 }
 
 #project_container {
+    width: 100%;
+    height: 100%;
     position: relative;
+    background-color: hsl(217, 28%, 15%);
 }
 
 .img_teste {
@@ -23,6 +25,7 @@
 #menu_main {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 45px 45px 0 45px;
 }
 
@@ -145,6 +148,14 @@
     font-family: 'Open Sans', sans-serif;
     background: hsl(218, 28%, 13%);
     gap: 50px;
+    padding-bottom: 160px;
+}
+
+#quote_icon {
+    position: absolute;
+    left: 130px;
+    z-index: -1;
+    top: -30px;
 }
 
 #productive_container img{
@@ -158,28 +169,75 @@
     margin: 0;
 }
 
-#title_paragraph_product h1, p, a {
+.title_product{
     background: hsl(218, 28%, 13%);
 }
 
 .paragraph_product {
     padding-top: 15px;
     line-height: 1.7;
+    background: hsl(218, 28%, 13%);
 }
 
 .btn_product {
     color: hsl(198, 60%, 50%);
     font-family: 'Open Sans', sans-serif;
     line-height: 3.5;
+    background: hsl(218, 28%, 13%);
 }
 
 .btn_product:hover {
     color: hsl(0, 0%, 100%);
 }
 
-#comment_person {
+.img_arrow_product {
+    background: hsl(218, 28%, 13%);
+}
+
+#squared_comment {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 40px;
+    z-index: 1;
+    background: hsl(218, 28%, 13%);
+    padding-bottom: 35px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.comment_content {
     width: 500px;
-    height: 150px;
-    background-color: brown;
+    background-color: hsl(217, 28%, 15%);
+    border-radius: 10px;
+}
+
+#comment_person {
+    padding: 40px 25px 25px 25px;
+}
+
+.img_comment {
+    display: flex;
+    margin-top: 30px;
+}
+
+.img_person {
+    width: 36px;
+    height: 36px;
+    border-radius: 80px;
+}
+
+.about_you {
+    margin-left: 15px;
+}
+
+.name_person {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.professional_person {
+    font-size: 10px;
 }
 
