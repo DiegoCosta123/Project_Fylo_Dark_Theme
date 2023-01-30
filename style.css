@@ -202,7 +202,7 @@
     column-gap: 40px;
     z-index: 1;
     background: hsl(218, 28%, 13%);
-    padding-bottom: 250px;
+    padding-bottom: 400px;
     color: hsl(0, 0%, 100%);
     font-family: 'Open Sans', sans-serif;
 }
@@ -239,5 +239,124 @@
 
 .professional_person {
     font-size: 10px;
+}
+
+#window_email {
+    width: 899px;
+    height: 280px;
+    background-color: aqua;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    bottom: 380px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(14, 14, 14);
+    background-color: hsl(217, 28%, 15%);
+    color: hsl(0, 0%, 100%);
+}
+
+#email_container {
+    padding: 50px 50px 0 50px;
+}
+
+#paragraph_email {
+    margin-top: 20px;
+    padding: 0 25px;
+}
+
+.title_paragraph_email {
+    text-align: center;
+}
+
+#email_button_container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#button_content {
+    width: 212px;
+    height: 45px;
+    background-color: hsl(198, 60%, 50%);
+    border: 0 solid;
+    border-radius: 50px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#email {
+    border: 0px solid;
+    width: 450px;
+    height: 45px;
+    border-radius: 50px;
+    padding: 0 30px;    
+}
+
+#footer_container {
+    width: 100%;
+    height: 500px;
+    background-color: hsl(216, 53%, 9%);
+
+}
+
+#contact_information {
+    padding: 180px 100px 0 100px;
+}
+
+#information_container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.location_content {
+    width: 355px;
+    display: flex;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#location_img {
+    width: 25px;
+    height: 25px;
+}
+
+.text_location {
+    margin-left: 15px;
+}
+
+.contact_container {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact_content {
+    display: flex
+}
+
+.menu_information {
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+/* .information_option {
+    justify-content: space-between;
+} */
+
+.btn_information {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.btn_information:hover {
+    text-decoration: underline;
 }
 
