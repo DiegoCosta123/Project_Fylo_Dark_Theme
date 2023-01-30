@@ -340,6 +340,18 @@
     display: flex
 }
 
+.contact_person {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    background-color: transparent;
+    margin-left: 20px;
+}
+
+.contact_person:hover {
+    text-decoration: underline;
+}
+
 #class_menu {
     display: flex;
     gap: 50px;
