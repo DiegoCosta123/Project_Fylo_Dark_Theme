@@ -340,20 +340,17 @@
     display: flex
 }
 
-.menu_information {
-    /* display: flex;
-    justify-content: space-between; */
+#class_menu {
+    display: flex;
+    gap: 50px;
 }
-
-/* .information_option {
-    justify-content: space-between;
-} */
 
 .btn_information {
     color: hsl(0, 0%, 100%);
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     background-color: transparent;
+    display: block;
 }
 
 .btn_information:hover {
