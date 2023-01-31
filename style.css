@@ -402,6 +402,17 @@
     margin-top: 6px;
 }
 
+
+.requiredField{
+    color: #dc3545;
+    font-size: 9px;
+    /* border: 2px solid #dc3545; */
+}
+
+.error-name {
+    display: none; 
+}
+
 @media screen and (max-width: 941px) {
 
     #icons_container {
