@@ -158,7 +158,7 @@
     top: -30px;
 }
 
-#productive_container img{
+#img_productive{
     background: inherit;
 }
 
@@ -290,6 +290,10 @@
     margin-left: 10px;
 }
 
+#button_content:hover {
+    background-color: hsl(176, 68%, 64%);
+}
+
 #email {
     border: 0px solid;
     width: 450px;
@@ -336,8 +340,13 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.contact_number {
+    display: flex;
+}
+
 .contact_content {
-    display: flex
+    display: flex;
+    margin-top: 30px;
 }
 
 .contact_person {
@@ -357,6 +366,10 @@
     gap: 50px;
 }
 
+.menu_option {
+    line-height: 2;
+}
+
 .btn_information {
     color: hsl(0, 0%, 100%);
     font-family: 'Open Sans', sans-serif;
@@ -367,5 +380,174 @@
 
 .btn_information:hover {
     text-decoration: underline;
+}
+
+.rede_social {
+    display: flex;
+    text-align: center;
+}
+
+#facebook {
+    width: 45px;
+    text-align: center;
+}
+
+#twitter {
+    width: 45px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+#instagram {
+    margin-top: 6px;
+}
+
+@media screen and (max-width: 941px) {
+
+    #icons_container {
+        display: block;
+    }
+
+    .card {
+        align-items: center;
+    }
+
+    #productive_container {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    #squared_comment {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comment_content {
+        margin-top: 30px;
+    }
+
+    #window_email {
+        width: 480px;
+        height: 410px;
+        bottom: 770px;
+    }
+
+    #title_email {
+        font-size: 20px;
+    }
+
+    #email_button_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #email {
+        width: 100%;
+        height: 55px;
+        padding: 0;
+        text-align: center;
+    }
+
+    #button_content {
+        width: 100%;
+        height: 55px;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    #contact_information {
+        padding: 225px 100px 0 100px;
+    }
+
+    #logo {
+        width: 200px;
+        height: 65px;
+    }
+
+    #footer_container {
+        height: 100%;
+    }
+
+    #information_container {
+        flex-direction: column;
+    }
+
+    .contact_container {
+        margin-top: 40px;
+    }
+
+    #class_menu {
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 30px;
+    }
+
+    .rede_social {
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 718px) {
+    
+    .img_intro {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 617px) {
+    #img_productive {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    
+    #title_paragraph_product {
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .comment_content {
+        width: 100%;
+    }
+
+    #window_email {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+
+    #window_email {
+        bottom: 820px;
+    }
+
+    #information_container {
+        width: 100%;
+    }
+
+    .location_content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    
+    .icons_content {
+        width: 100%;
+    }
+
+    .title_paragraph {
+        width: 100%;
+    }
+
+    #window_email {
+        bottom: 900px;
+    }
 }
 
