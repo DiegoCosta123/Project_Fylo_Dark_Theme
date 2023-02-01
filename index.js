@@ -4,22 +4,13 @@ const buttonEmail = document.getElementById("button_content");
 const errorMessage = document.getElementsByClassName("requiredField");
 
 
-function buttonEmail() {
+buttonEmail.addEventListener("click", () => {
     if (email.value == '') {
-        document.querySelector(".error-name").textContent = "email obrigatório";
-        document.querySelector(".error-name").style.display = "block";
+        console.log("vazio")
+        document.getElementById("error-name").textContent = "email obrigatório";
+        document.getElementById("error-name").style.display = "block";
         return;
     }
-}
-
-// buttonEmail.addEventListener("click", (event) => {
-
-//     event.preventDefault();
-
-//     if (email.value == '') {
-//         document.querySelector(".error-name").textContent = "email obrigatório";
-//         document.querySelector(".error-name").style.display = "block";
-//         return;
-//     }
-// })
+    document.getElementById("error-name").style.display = "none";
+});
 
