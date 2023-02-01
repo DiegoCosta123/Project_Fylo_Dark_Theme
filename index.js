@@ -6,7 +6,7 @@ const errorMessage = document.getElementsByClassName("requiredField");
 
 buttonEmail.addEventListener("click", () => {
     if (email.value == '') {
-        console.log("vazio")
+
         document.getElementById("error-name").textContent = "email obrigatório";
         document.getElementById("error-name").style.display = "block";
         return;
