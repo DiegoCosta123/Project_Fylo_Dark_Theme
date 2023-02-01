@@ -205,6 +205,8 @@
     padding-bottom: 400px;
     color: hsl(0, 0%, 100%);
     font-family: 'Open Sans', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .comment_content {
