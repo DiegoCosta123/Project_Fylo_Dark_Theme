@@ -407,13 +407,17 @@
 
 .requiredField{
     color: #dc3545;
-    font-size: 9px;
+    font-size: 10px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 7px;
     /* border: 2px solid #dc3545; */
 }
 
 .error-name {
     display: none; 
 }
+
 
 @media screen and (max-width: 941px) {
 
@@ -501,6 +505,12 @@
         justify-content: center;
         margin-top: 50px;
         margin-bottom: 40px;
+    }
+
+    .requiredField {
+        position: absolute;
+        bottom: 112px;
+        margin-left: 26px;
     }
 }
 
